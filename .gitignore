@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# Ignore Chroma DB if you want to rebuild it on the server
+# (If you want to upload the pre-built DB, remove or comment out the next line)
+# chroma_db/
