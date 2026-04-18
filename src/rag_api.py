@@ -2,7 +2,7 @@ import os
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from rag import get_rag_chain
+from src.rag import get_rag_chain
 
 app = FastAPI(title="MediWaste RAG AI Assistant")
 
